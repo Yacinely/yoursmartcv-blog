@@ -1,0 +1,150 @@
+---
+import { getCollection } from "astro:content";
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+
+const posts = (await getCollection("blog"))
+  .filter((post) => post.id.startsWith("en/"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const getSlug = (post) =>
+  post.id.replace(/^en\//, "").replace(/\.(md|mdx)$/, "");
+---
+
+<!doctype html>
+<html lang="en">
+	  <head>
+	  <BaseHead
+		title="YourSmartCV – Blog"
+		description="Practical guides to beat ATS, tailor your CV with AI, and write strong cover letters."
+	  />
+	  <link rel="alternate" hreflang="en" href="https://blog.yoursmartcv.com/en/" />
+	  <link rel="alternate" hreflang="de" href="https://blog.yoursmartcv.com/de/" />
+	  <link rel="alternate" hreflang="x-default" href="https://blog.yoursmartcv.com/en/" />
+	</head>
+  <body>
+    <Header />
+
+    <main class="page">
+      <section class="hero">
+        <h1>CV & ATS Guides</h1>
+        <p>
+          Practical guides to beat ATS, tailor your CV with AI, and write strong
+          cover letters.
+        </p>
+      </section>
+
+      <section class="grid">
+        {posts.map((post) => (
+          <a class="card" href={`/en/blog/${getSlug(post)}/`}>
+            <p class="category">{post.data.category || "ATS & CV"}</p>
+            <h2>{post.data.title}</h2>
+            <p class="excerpt">{post.data.excerpt || post.data.description}</p>
+            <span class="readmore">Read guide →</span>
+          </a>
+        ))}
+      </section>
+    </main>
+
+    <Footer />
+  </body>
+</html>
+
+<style>
+  :global(html, body) {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #0f172a;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+      "Segoe UI", sans-serif;
+  }
+
+  .page {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 64px 16px 48px;
+  }
+
+  .hero {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .hero h1 {
+    margin: 0 0 12px;
+    font-size: 36px;
+    line-height: 1.15;
+    font-weight: 600;
+    color: #0f172a;
+    letter-spacing: -0.02em;
+  }
+
+  .hero p {
+    margin: 0 auto;
+    max-width: 680px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #64748b;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .card {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 15px;
+    padding: 10px;
+	min-height: 10px;
+    box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+
+  .card:hover {
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+    transform: translateY(-1px);
+  }
+
+  .category {
+    margin: 0 0 8px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: #64748b;
+  }
+
+  .card h2 {
+    margin: 0 0 10px;
+    font-size: 17px;
+    line-height: 1.45;
+    font-weight: 600;
+    color: #0f172a;
+  }
+
+  .excerpt {
+    margin: 0 0 14px;
+    font-size: 13px;
+    line-height: 1.65;
+    color: #64748b;
+  }
+
+  .readmore {
+    font-size: 12px;
+    font-weight: 600;
+    color: #312e81;
+  }
+
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

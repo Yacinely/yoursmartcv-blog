@@ -1,20 +1,22 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+
+const path = Astro.url.pathname;
+const lang = path.startsWith('/de/') ? 'de' : 'en';
+const blogHome = `/${lang}/`;
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2><a href={blogHome}>{SITE_TITLE}</a></h2>
 		<div class="internal-links">
 			<a href="https://www.yoursmartcv.com">Main Site</a>
-			<HeaderLink href="/">Blog</HeaderLink>
-			
+			<HeaderLink href={blogHome}>Blog</HeaderLink>
 		</div>
-		
-			
 	</nav>
 </header>
+
 <style>
 	header {
 		margin: 0;
@@ -46,5 +48,4 @@ import HeaderLink from './HeaderLink.astro';
 		text-decoration: none;
 		border-bottom-color: var(--accent);
 	}
-	
 </style>

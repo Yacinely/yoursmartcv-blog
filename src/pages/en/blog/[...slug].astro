@@ -1,19 +1,43 @@
 ---
 import { getCollection, render } from "astro:content";
-import BaseHead from "../../components/BaseHead.astro";
-import Header from "../../components/Header.astro";
-import Footer from "../../components/Footer.astro";
+import BaseHead from "../../../components/BaseHead.astro";
+import Header from "../../../components/Header.astro";
+import Footer from "../../../components/Footer.astro";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog");
+  const posts = (await getCollection("blog")).filter((post) =>
+    post.id.startsWith("en/")
+  );
 
   return posts.map((post) => ({
-    params: { slug: post.id.replace(/\.(md|mdx)$/, "") },
+    params: {
+      slug: post.id.replace(/^en\//, "").replace(/\.(md|mdx)$/, ""),
+    },
     props: { post },
   }));
 }
 
 const { post } = Astro.props;
+const allPosts = await getCollection("blog");
+
+const relatedPosts = allPosts.filter(
+  (p) => p.data.translationKey === post.data.translationKey
+);
+
+const enPost = relatedPosts.find((p) => p.data.locale === "en");
+const dePost = relatedPosts.find((p) => p.data.locale === "de");
+
+const toSlug = (p) =>
+  p.id.replace(/^en\//, "").replace(/^de\//, "").replace(/\.(md|mdx)$/, "");
+
+const enHref = enPost
+  ? `https://blog.yoursmartcv.com/en/blog/${toSlug(enPost)}/`
+  : null;
+
+const deHref = dePost
+  ? `https://blog.yoursmartcv.com/de/blog/${toSlug(dePost)}/`
+  : null;
+
 const { Content } = await render(post);
 ---
 
@@ -24,13 +48,16 @@ const { Content } = await render(post);
       title={`${post.data.title} | YourSmartCV`}
       description={post.data.description}
     />
+    {enHref && <link rel="alternate" hreflang="en" href={enHref} />}
+    {deHref && <link rel="alternate" hreflang="de" href={deHref} />}
+    {enHref && <link rel="alternate" hreflang="x-default" href={enHref} />}
   </head>
   <body>
     <Header />
 
     <main class="page">
       <section class="wrap">
-        <a href="/" class="back">← Back to blog</a>
+        <a href="/en/" class="back">← Back to blog</a>
 
         <p class="category">{post.data.category || "ATS & CV Guides"}</p>
 
