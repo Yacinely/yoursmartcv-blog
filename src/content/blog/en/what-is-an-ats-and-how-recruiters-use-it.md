@@ -1,130 +1,152 @@
 ---
-title: "Was ist ein ATS und wie Recruiter es wirklich nutzen"
-description: "Verstehe, was ein ATS ist, wie Recruiter damit arbeiten und warum Struktur und Keywords beeinflussen, ob dein Lebenslauf wahrgenommen wird."
-category: "ATS-Grundlagen"
-excerpt: "Eine einfache Erklärung, was passiert, bevor ein Recruiter deinen Lebenslauf liest."
+title: "Ten Common CV Mistakes That Block ATS And Recruiters"
+description: "Avoid the common CV mistakes that quietly reduce your chances with ATS systems and recruiters."
+category: "CV Mistakes"
+excerpt: "The formatting, wording, and structure mistakes that can hurt a strong profile."
 pubDate: 2026-04-23
-locale: "de"
-translationKey: "what-is-an-ats-core"
+locale: "en"
+translationKey: "cv-mistakes-core"
 ---
 
-Wenn du dich online auf Jobs bewirbst, läuft dein Lebenslauf oft zuerst durch ein ATS, bevor ihn ein Recruiter überhaupt liest. Viele Bewerber kennen den Begriff, wissen aber nicht genau, was er bedeutet und wie er ihre Bewerbung beeinflusst.
+Many candidates have strong experience, useful skills, and real achievements, but still get very few interviews. In many cases, the problem is not their background. The problem is their CV.
 
-Wenn du verstehst, wie ein ATS funktioniert, kannst du deinen Lebenslauf besser aufbauen und typische Fehler vermeiden, die deine Sichtbarkeit verringern.
+A CV can quietly work against you if it is hard to read, too generic, badly structured, or missing the language recruiters expect to see.
 
-## 1. Was ist ein ATS?
+Here are ten common CV mistakes that can block ATS systems and recruiters, and what to do instead.
 
-ATS steht für Applicant Tracking System.
+## 1. A layout that is too complex
 
-Dabei handelt es sich um Software, mit der Unternehmen Bewerbungen verwalten. Statt jeden Lebenslauf manuell zu bearbeiten, nutzen Arbeitgeber ATS-Plattformen, um Bewerberdaten effizienter zu speichern, zu durchsuchen und zu prüfen.
+Very colorful templates, multiple columns, icons, charts, and decorative shapes can make your CV harder to process.
 
-Ein ATS kann Unternehmen dabei helfen:
+They may look modern, but they often reduce clarity and sometimes create problems for ATS systems.
 
-- Bewerbungen zu sammeln
-- Lebensläufe zentral zu speichern
-- Informationen aus Dokumenten auszulesen
-- Kandidaten per Keywords zu suchen
-- Profile nach bestimmten Kriterien zu filtern
-- Bewerber durch die einzelnen Hiring-Stufen zu führen
+A better approach is:
 
-Nicht jedes Unternehmen nutzt ein ATS auf dieselbe Weise, aber für viele Arbeitgeber ist es ein fester Teil des Bewerbungsprozesses.
+- one clear column
+- readable headings
+- normal text formatting
+- simple spacing
 
-## 2. Was ein ATS normalerweise mit deinem Lebenslauf macht
+The easier your CV is to scan, the better it usually performs.
 
-Wenn du deinen Lebenslauf online einreichst, versucht das ATS oft, Informationen wie diese zu erkennen und zu ordnen:
+## 2. Important information hidden inside graphics
 
-- deinen Namen und deine Kontaktdaten
-- Jobtitel
-- Arbeitgeber
-- Zeiträume
-- Ausbildung
-- Skills
-- Zertifikate
+If job titles, dates, skills, or contact details are inside text boxes, shapes, or images, ATS tools may not read them correctly.
 
-Wenn dein Dokument sauber und gut strukturiert ist, funktioniert das leichter. Ist es dagegen zu stark designt oder schlecht formatiert, können manche Informationen schwieriger erkannt oder falsch eingeordnet werden.
+That means a recruiter searching for key terms may not find your profile as easily as they should.
 
-Genau deshalb ist ein einfaches Format so wichtig.
+Make sure the most important information appears as normal text in the body of the document.
 
-## 3. Wie Recruiter ATS-Plattformen wirklich nutzen
+## 3. No clear keywords from the job description
 
-Ein häufiges Missverständnis ist, dass ATS-Systeme Bewerber automatisch aussortieren. In der Realität nutzen Recruiter diese Plattformen meist als Werkzeuge, um große Mengen an Bewerbungen besser zu verwalten und schneller zu suchen.
+Recruiters and ATS platforms often search using keywords related to the role.
 
-Recruiter verwenden ATS-Systeme oft, um:
+If your CV does not include the right language, you may look less relevant even when you have the right experience.
 
-- Kandidaten über Keywords zu suchen
-- nach Standort, Erfahrung oder Skills zu filtern
-- eine Shortlist zu prüfen
-- Bewerber schneller zu vergleichen
-- den Recruiting-Prozess zu verfolgen
+Use keywords from the job description naturally in:
 
-Das bedeutet: Sichtbarkeit ist entscheidend. Wenn dein Lebenslauf nicht die Sprache enthält, nach der Recruiter suchen, wirkt dein Profil schwächer oder ist schwerer zu finden.
+- your summary
+- your skills section
+- your work experience bullets
 
-## 4. Warum Keywords so wichtig sind
+The goal is not to copy everything. The goal is to align your language with the role truthfully.
 
-Keywords verbinden deinen Lebenslauf mit der Stelle.
+## 4. Too many duties, not enough results
 
-Wenn ein Unternehmen zum Beispiel eine Rolle sucht, in der Begriffe wie diese vorkommen:
+A weak CV often reads like a job description. It tells people what you were responsible for, but not what you achieved.
 
-- Stakeholder-Management
-- SQL
-- Forecasting
-- Product Analytics
+Employers want to understand your impact.
 
-dann suchen Recruiter im ATS oft genau nach diesen Begriffen.
+Whenever possible, show results like:
 
-Wenn deine Erfahrung passt, dein Lebenslauf aber ganz andere Formulierungen verwendet, verlierst du einen Teil deiner Sichtbarkeit.
+- improved conversion by 12%
+- reduced churn by 8%
+- automated reporting and saved time
+- increased revenue or efficiency
+- improved forecasting accuracy
 
-Deshalb ist es so wichtig, relevante Keywords aus der Stellenanzeige natürlich und ehrlich in deinen Lebenslauf einzubauen.
+Results make your profile stronger and more memorable.
 
-## 5. Warum die Struktur ebenfalls zählt
+## 5. Sending the same CV to every job
 
-Keywords allein reichen nicht.
+A generic CV usually feels too broad.
 
-Ein Lebenslauf braucht auch eine klare Struktur, damit sowohl Software als auch Recruiter ihn schnell lesen können. Wenn wichtige Informationen in Grafiken, Tabellen oder ungewöhnlichen Formaten versteckt sind, sind sie für das ATS schwerer zu erfassen und für Recruiter schwerer zu überfliegen.
+If the role is focused on operations, data, marketing, finance, product, or leadership, your CV should reflect that focus. When the same version is sent everywhere, it often fails to speak directly to what the employer needs.
 
-Ein guter ATS-freundlicher Lebenslauf enthält meist:
+Tailoring your CV does not mean rewriting everything. It means adjusting the summary, keywords, and highlighted experience so your fit is clear.
 
-- eine klare einspaltige Struktur
-- Standard-Überschriften
-- gut lesbaren Text
-- relevante Keywords
-- prägnante Bullet Points zur Erfahrung
+## 6. Weak or unclear professional summary
 
-Klarheit hilft allen.
+Your summary is often the first content a recruiter reads.
 
-## 6. Worauf Recruiter trotzdem achten
+If it is vague, generic, or full of empty phrases, it adds little value.
 
-Auch wenn ein ATS verwendet wird, wird die finale Entscheidung immer noch von Menschen getroffen.
+Avoid lines like:
 
-Recruiter und Hiring Manager achten weiterhin auf:
+- hardworking professional
+- team player
+- motivated individual
 
-- deine Relevanz für die Rolle
-- dein Erfahrungsniveau
-- deine Erfolge
-- deine Kommunikation
-- deine generelle Passung
+Instead, explain clearly:
 
-Ein ATS ersetzt keine starken Inhalte. Es beeinflusst nur, wie diese Inhalte gefunden, sortiert und gelesen werden.
+- who you are
+- what kind of roles you do
+- what strengths you bring
+- what results or expertise define your profile
 
-## 7. Häufige ATS-Mythen
+A good summary gives direction to the rest of the CV.
 
-Rund um ATS-Systeme gibt es viele Mythen.
+## 7. Too much text and not enough structure
 
-Zum Beispiel:
+Large paragraphs make a CV harder to review quickly.
 
-- Ein ATS lehnt dich nicht automatisch ab, nur weil dein Lebenslauf nicht perfekt ist
-- Zufällige Keywords machen aus einem schwachen Lebenslauf keinen starken
-- Ein komplexes Design verbessert deine Chancen nicht, wenn die Klarheit darunter leidet
-- Es geht nicht darum, das System auszutricksen, sondern deine Erfahrung leichter verständlich zu machen
+Recruiters often look through many applications in a short time, so structure matters a lot.
 
-Die beste Strategie bleibt immer dieselbe: klare Struktur, relevante Sprache und ehrlicher Inhalt.
+Use short bullets, clear spacing, and direct wording. Keep each point focused on one idea. This improves readability immediately.
 
-## Fazit
+## 8. Missing or inconsistent dates, titles, or formatting
 
-Wenn du ATS-Systeme verstehst, verstehst du auch besser, was passiert, bevor ein Recruiter deinen Lebenslauf liest. Dieses Wissen macht deine Bewerbungsstrategie klüger.
+Small inconsistencies create doubt.
 
-Wenn dein Lebenslauf klar, keyword-orientiert und gut lesbar ist, steigen deine Chancen, schneller gefunden und richtig verstanden zu werden.
+If your dates are formatted differently across roles, job titles are unclear, or sections are inconsistent, your CV may look less professional.
 
-## Bereit, deinen Lebenslauf zu verbessern?
+Keep your formatting uniform across the whole document:
 
-[Jetzt YourSmartCV testen](https://www.yoursmartcv.com)
+- same date style
+- same bullet style
+- same heading style
+- same job structure
+
+Consistency builds trust.
+
+## 9. Including irrelevant or outdated information
+
+Not every old detail helps your application.
+
+If your CV is crowded with outdated tools, unrelated early experience, or too much minor information, the most relevant points become less visible.
+
+Focus on what supports the role you want now. Strong relevance is more powerful than too much detail.
+
+## 10. Writing that is unclear, passive, or too generic
+
+Strong CVs use direct language.
+
+Compare:
+
+- Responsible for supporting analytics tasks
+
+with:
+
+- Built weekly dashboards, tracked campaign performance, and improved reporting visibility for stakeholders
+
+Specific writing creates a stronger impression. Clear action verbs and concrete details make your profile more convincing.
+
+## Final thought
+
+A CV does not need to be flashy to work well. It needs to be clear, relevant, and easy to read.
+
+If you avoid these common mistakes, you give both ATS systems and recruiters a much better chance to understand your value quickly.
+
+## Ready to improve your CV?
+
+[Try YourSmartCV](https://www.yoursmartcv.com)
