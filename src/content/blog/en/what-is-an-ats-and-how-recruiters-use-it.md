@@ -1,151 +1,129 @@
 ---
-title: "Ten Common CV Mistakes That Block ATS And Recruiters"
-description: "Avoid the common CV mistakes that quietly reduce your chances with ATS systems and recruiters."
-category: "CV Mistakes"
-excerpt: "The formatting, wording, and structure mistakes that can hurt a strong profile."
+title: "What Is an ATS and How Recruiters Really Use It"
+description: "Understand what an ATS is, how recruiters use it, and why structure and keywords affect whether your CV gets noticed."
+category: "ATS Basics"
+excerpt: "A simple explanation of what happens before a recruiter reads your CV."
 pubDate: 2026-04-23
 locale: "en"
-translationKey: "cv-mistakes-core"
+translationKey: "what-is-an-ats-core"
 ---
 
-Many candidates have strong experience, useful skills, and real achievements, but still get very few interviews. In many cases, the problem is not their background. The problem is their CV.
+When you apply for jobs online, your CV often goes through an ATS before a recruiter even reads it. Many candidates know the term, but they do not fully understand what it means or how it affects their application.
 
-A CV can quietly work against you if it is hard to read, too generic, badly structured, or missing the language recruiters expect to see.
+Once you understand how an ATS works, you can build your CV more effectively and avoid common mistakes that reduce your visibility.
 
-Here are ten common CV mistakes that can block ATS systems and recruiters, and what to do instead.
+## 1. What is an ATS?
 
-## 1. A layout that is too complex
+ATS stands for Applicant Tracking System.
 
-Very colorful templates, multiple columns, icons, charts, and decorative shapes can make your CV harder to process.
+It is software companies use to manage applications. Instead of handling every CV manually, employers use ATS platforms to store, search, and review candidate information more efficiently.
 
-They may look modern, but they often reduce clarity and sometimes create problems for ATS systems.
+An ATS can help companies:
 
-A better approach is:
+- collect applications
+- store CVs in one place
+- extract information from documents
+- search candidates by keywords
+- filter profiles using specific criteria
+- move applicants through different hiring stages
 
-- one clear column
-- readable headings
-- normal text formatting
-- simple spacing
+Not every company uses an ATS in exactly the same way, but for many employers it is a standard part of the hiring process.
 
-The easier your CV is to scan, the better it usually performs.
+## 2. What an ATS usually does with your CV
 
-## 2. Important information hidden inside graphics
+When you submit your CV online, the ATS often tries to identify and organize information such as:
 
-If job titles, dates, skills, or contact details are inside text boxes, shapes, or images, ATS tools may not read them correctly.
+- your name and contact details
+- job titles
+- employers
+- dates
+- education
+- skills
+- certifications
 
-That means a recruiter searching for key terms may not find your profile as easily as they should.
+If your document is clean and well structured, this process is easier. If it is heavily designed or poorly formatted, some details may be harder to detect or may be placed incorrectly.
 
-Make sure the most important information appears as normal text in the body of the document.
+That is exactly why a simple format matters so much.
 
-## 3. No clear keywords from the job description
+## 3. How recruiters really use ATS platforms
 
-Recruiters and ATS platforms often search using keywords related to the role.
+A common misunderstanding is that ATS systems automatically reject candidates. In reality, recruiters usually use these platforms as tools to manage large numbers of applications and search more efficiently.
 
-If your CV does not include the right language, you may look less relevant even when you have the right experience.
+Recruiters often use ATS platforms to:
 
-Use keywords from the job description naturally in:
+- search candidates by keywords
+- filter by location, experience, or skills
+- review a shortlist
+- compare applicants more quickly
+- track the hiring process
 
-- your summary
-- your skills section
-- your work experience bullets
+This means visibility matters. If your CV does not use the language recruiters are searching for, your profile may look weaker or be harder to find.
 
-The goal is not to copy everything. The goal is to align your language with the role truthfully.
+## 4. Why keywords matter so much
 
-## 4. Too many duties, not enough results
+Keywords connect your CV to the job.
 
-A weak CV often reads like a job description. It tells people what you were responsible for, but not what you achieved.
+For example, if a company is hiring for a role that includes terms such as:
 
-Employers want to understand your impact.
+- stakeholder management
+- SQL
+- forecasting
+- product analytics
 
-Whenever possible, show results like:
+recruiters often search for those exact terms in the ATS.
 
-- improved conversion by 12%
-- reduced churn by 8%
-- automated reporting and saved time
-- increased revenue or efficiency
-- improved forecasting accuracy
+If your experience fits the role but your CV uses very different wording, you lose part of your visibility.
 
-Results make your profile stronger and more memorable.
+That is why it is important to include relevant keywords from the job description naturally and truthfully in your CV.
 
-## 5. Sending the same CV to every job
+## 5. Why structure matters too
 
-A generic CV usually feels too broad.
+Keywords alone are not enough.
 
-If the role is focused on operations, data, marketing, finance, product, or leadership, your CV should reflect that focus. When the same version is sent everywhere, it often fails to speak directly to what the employer needs.
+A CV also needs a clear structure so both software and recruiters can read it quickly. If important information is hidden inside graphics, tables, or unusual layouts, it becomes harder for the ATS to capture and harder for recruiters to scan.
 
-Tailoring your CV does not mean rewriting everything. It means adjusting the summary, keywords, and highlighted experience so your fit is clear.
+A good ATS-friendly CV usually includes:
 
-## 6. Weak or unclear professional summary
+- a clear one-column layout
+- standard section headings
+- easy-to-read text
+- relevant keywords
+- concise bullet points showing experience
 
-Your summary is often the first content a recruiter reads.
+Clarity helps everyone.
 
-If it is vague, generic, or full of empty phrases, it adds little value.
+## 6. What recruiters still look at
 
-Avoid lines like:
+Even when an ATS is used, the final decision is still made by people.
 
-- hardworking professional
-- team player
-- motivated individual
+Recruiters and hiring managers still care about:
 
-Instead, explain clearly:
+- your relevance to the role
+- your level of experience
+- your achievements
+- your communication
+- your overall fit
 
-- who you are
-- what kind of roles you do
-- what strengths you bring
-- what results or expertise define your profile
+An ATS does not replace strong content. It only affects how that content is found, sorted, and read.
 
-A good summary gives direction to the rest of the CV.
+## 7. Common ATS myths
 
-## 7. Too much text and not enough structure
+There are many myths around ATS systems.
 
-Large paragraphs make a CV harder to review quickly.
+For example:
 
-Recruiters often look through many applications in a short time, so structure matters a lot.
+- an ATS does not automatically reject you just because your CV is not perfect
+- random keywords do not turn a weak CV into a strong one
+- complex design does not improve your chances if it reduces clarity
+- the goal is not to trick the system, but to make your experience easier to understand
 
-Use short bullets, clear spacing, and direct wording. Keep each point focused on one idea. This improves readability immediately.
+The best strategy is always the same: clear structure, relevant language, and honest content.
 
-## 8. Missing or inconsistent dates, titles, or formatting
+## Final thoughts
 
-Small inconsistencies create doubt.
+When you understand ATS systems, you better understand what happens before a recruiter reads your CV. That knowledge helps you approach applications more strategically.
 
-If your dates are formatted differently across roles, job titles are unclear, or sections are inconsistent, your CV may look less professional.
-
-Keep your formatting uniform across the whole document:
-
-- same date style
-- same bullet style
-- same heading style
-- same job structure
-
-Consistency builds trust.
-
-## 9. Including irrelevant or outdated information
-
-Not every old detail helps your application.
-
-If your CV is crowded with outdated tools, unrelated early experience, or too much minor information, the most relevant points become less visible.
-
-Focus on what supports the role you want now. Strong relevance is more powerful than too much detail.
-
-## 10. Writing that is unclear, passive, or too generic
-
-Strong CVs use direct language.
-
-Compare:
-
-- Responsible for supporting analytics tasks
-
-with:
-
-- Built weekly dashboards, tracked campaign performance, and improved reporting visibility for stakeholders
-
-Specific writing creates a stronger impression. Clear action verbs and concrete details make your profile more convincing.
-
-## Final thought
-
-A CV does not need to be flashy to work well. It needs to be clear, relevant, and easy to read.
-
-If you avoid these common mistakes, you give both ATS systems and recruiters a much better chance to understand your value quickly.
+If your CV is clear, keyword-focused, and easy to read, your chances of being found quickly and understood correctly become stronger.
 
 ## Ready to improve your CV?
 
