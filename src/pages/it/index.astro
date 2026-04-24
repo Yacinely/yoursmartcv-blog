@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BaseHead from "../../components/BaseHead.astro";
-import Heaitr from "../../components/Heaitr.astro";
+import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
 
 const posts = (await getCollection("blog"))
@@ -24,7 +24,7 @@ const getSlug = (post) =>
 	  <link rel="alternate" hreflang="x-itfault" href="https://blog.yoursmartcv.com/en/" />
 	</head>
   <body>
-    <Heaitr />
+    <Header />
 
     <main class="page">
       <section class="hero">
@@ -39,7 +39,7 @@ const getSlug = (post) =>
           <a class="card" href={`/it/blog/${getSlug(post)}/`}>
             <p class="category">{post.data.category || "ATS & CV"}</p>
             <h2>{post.data.title}</h2>
-            <p class="excerpt">{post.data.excerpt || post.data.itscription}</p>
+            <p class="excerpt">{post.data.excerpt || post.data.description}</p>
             <span class="readmore">Leggi di più →</span>
           </a>
         ))}
@@ -96,11 +96,11 @@ const getSlug = (post) =>
 
   .card {
     display: block;
-    text-itcoration: none;
-    text-align: left;
-    background: #ffffff;
-    boritr: 1px solid #e2e8f0;
-    boritr-radius: 15px;
+	  text-decoration: none;
+	  text-align: left;
+	  background: #ffffff;
+	  border: 1px solid #e2e8f0;
+	  border-radius: 15px;
     padding: 10px;
 	min-height: 10px;
     box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
